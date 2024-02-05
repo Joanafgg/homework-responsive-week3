@@ -1,15 +1,5 @@
 /** @format */
-@media (max-width: 800px) {
-  h2,
-  a,
-  p {
-    text-align: center;
-  }
 
-  img {
-    display: none;
-  }
-}
 :root {
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
@@ -17,7 +7,7 @@
 }
 
 body {
-  margin-top: 100px;
+  margin: 100px 0;
 }
 
 h1,
@@ -64,6 +54,10 @@ p {
   color: white;
 }
 
+.primary-link:hover {
+  color: white;
+}
+
 .secondary-link {
   border-radius: 4px;
   padding: 20px 15px;
@@ -97,4 +91,24 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 36px;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+
+  .project-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
 }
