@@ -1,5 +1,15 @@
 /** @format */
+@media (max-width: 800px) {
+  h2,
+  a,
+  p {
+    text-align: center;
+  }
 
+  img {
+    display: none;
+  }
+}
 :root {
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
